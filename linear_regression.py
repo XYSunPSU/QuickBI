@@ -29,7 +29,7 @@ class LinearRegression:
 
 
 if __name__ == "__main__":
-    x_train = [1, 2, 3, 4, 5,6,7,9,10]
+    x_train = [1, 2, 3, 4, 5,6,7,9,10,11]
     y_train = [3, 5, 7, 9, 11]
 
     model = LinearRegression()
