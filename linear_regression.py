@@ -24,7 +24,7 @@ class LinearRegression:
 
     def predict(self, x):
         if self.slope is None or self.intercept is None:
-            raise ValueError("请先调用 fit 方法训练模型")
+            raise ValueError("请先调用 fit 方法训练模")
         return [self.slope * xi + self.intercept for xi in x]
 
 
