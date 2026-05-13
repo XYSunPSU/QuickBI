@@ -1,0 +1,4 @@
+interface:
+  display_name: "数据方案模板"
+  short_description: "按标准模板生成业务数据解决方案文档、模型方案和看板方案"
+  default_prompt: "Use -solution-template to draft a structured Chinese business data solution."
